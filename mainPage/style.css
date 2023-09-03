@@ -73,3 +73,9 @@ p {
     /* font-weight: bold; */
     text-align: center;
 }
+
+@media (max-width: 550px) {
+    .container {
+        width: 80%;
+    }
+}
