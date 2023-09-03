@@ -52,7 +52,7 @@ h3 {
 button {
     flex: 1;
     min-width: 180px;
-    max-width: 300px;
+    max-width: 250px;
     text-align: center;
     height: 5rem;
     border-radius: 8px;
