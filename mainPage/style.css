@@ -78,4 +78,8 @@ p {
     .container {
         width: 80%;
     }
+
+    .wrapper {
+        height: 90vh;
+    }
 }
