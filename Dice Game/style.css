@@ -47,3 +47,13 @@ p {
     color: black;
     font-weight: 500;
 }
+
+@media (max-width: 550px) {
+    .container {
+        width: 80%;
+    }
+
+    .wrapper {
+        height: 100vh;
+    }
+}
