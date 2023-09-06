@@ -59,12 +59,17 @@ button {
 }
 
 .btn:hover {
-    background-color: rgb(68, 65, 65);
-    color: white;
+    /* background-color: rgb(68, 65, 65); */
+    /* color: white; */
+    scale: 1.1;
 }
 
 .btn:disabled {
     cursor: no-drop;
+}
+
+.btn:not(:hover) {
+    scale: 1;
 }
 
 .nextButton {
