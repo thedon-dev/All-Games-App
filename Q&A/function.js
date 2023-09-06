@@ -100,6 +100,7 @@ function showQuestion() {
 
 function resetQuestions() {
     nextButton.style.display = "none";
+    remark.style.display = "none";
     while (answerButtons.firstChild) {
         answerButtons.removeChild(answerButtons .firstChild);
     }
@@ -127,6 +128,16 @@ function selectAnswer(e) {
 function showScore() {
     resetQuestions();
     question.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    if (score <= 3) {
+        remark.innerHTML = "You be olodo oo!";
+        remark.style.display = "block";
+    } else if(score > 3 && score < 6) {
+        remark.innerHTML = "You tried";
+        remark.style.display = "block";
+    } else {
+        remark.innerHTML = "Your brain get oil!";
+        remark.style.display = "block";
+    }
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }

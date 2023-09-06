@@ -80,6 +80,11 @@ p {
     font-size: .8rem;
 }
 
+.remark {
+    padding: 10px;
+    display: none;
+}
+
 .back {
     width: fit-content;
     height: fit-content;
